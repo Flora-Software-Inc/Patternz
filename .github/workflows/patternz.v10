@@ -1,0 +1,19 @@
+name: Flora Patternz - Patch 1 
+
+on: [push]
+
+jobs:
+  build: version 1
+
+    runs-on: windows 10
+  
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo 
+        Hello Flora Software Inc., This repository is used for Flora Patternz product line only. 
+      
+    - name: Run a multi-line script
+      run: |
+        echo Please load and use product from this repository only for Flora Software Inc. 
+        echo Thank you. 
